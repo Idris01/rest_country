@@ -12,4 +12,6 @@ Go to `http://127.0.0.1/8000/api/country/` to list all the countries
 filter example
 `http://127.0.0.1/8000/api/country/?continent__name=<continent>` to list all countries in a given continent
 
-`http://127.0.0.1/8000/api/country/?continent__name=<country>`  to show the country with the particular name "country"
+`http://127.0.0.1/8000/api/country/?common__name=<country>`  to show the country with the particular name "country"
+
+NOTE: all query must be Title format.
